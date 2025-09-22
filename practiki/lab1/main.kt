@@ -6,13 +6,20 @@ fun main() {
         Human("Человек ${i + 1}", 20 + i, 1 + Math.random() * 2)
     }
 
-    for (t in 1..simulationTime) {
-        println("Шаг $t")
-        for (h in humans) {
-            h.move()
-            println(h)
+    val driver = Driver("Иван Петров", 35, 2.5, "Tesla")
+
+    val allActors = humans.toList() + driver
+
+    val threads = allActors.map { actor ->
+        Thread {
+            for (t in 1..simulationTime) {
+                actor.move()
+                println("Шаг $t: $actor")
+                Thread.sleep(1000)
+            }
         }
-        println("----------")
-        Thread.sleep(1000)
     }
+
+    threads.forEach { it.start() }
+    threads.forEach { it.join() }
 }

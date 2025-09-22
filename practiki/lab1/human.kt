@@ -3,18 +3,17 @@ import kotlin.math.sin
 import kotlin.math.PI
 import kotlin.random.Random
 
-class Human(
+open class Human(
     var fullName: String,
     var age: Int,
     var speed: Double
 ) {
 
     var x: Double = 0.0
-        private set
     var y: Double = 0.0
         private set
 
-    fun move() {
+    open fun move() {
         val angle = Random.nextDouble(0.0, 2 * PI)
         x += speed * cos(angle)
         y += speed * sin(angle)
