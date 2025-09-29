@@ -6,14 +6,13 @@ import kotlin.random.Random
 open class Human(
     var fullName: String,
     var age: Int,
-    var speed: Double
-) {
+    override var speed: Double
+) : Movable {
 
-    var x: Double = 0.0
-    var y: Double = 0.0
-        private set
+    override var x: Double = 0.0
+    override var y: Double = 0.0
 
-    open fun move() {
+    override fun move() {
         val angle = Random.nextDouble(0.0, 2 * PI)
         x += speed * cos(angle)
         y += speed * sin(angle)

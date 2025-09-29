@@ -8,7 +8,8 @@ fun main() {
 
     val driver = Driver("Иван Петров", 35, 2.5, "Tesla")
 
-    val allActors = humans.toList() + driver
+    // Список всех участников симуляции через интерфейс Movable
+    val allActors: List<Movable> = humans.toList() + driver
 
     val threads = allActors.map { actor ->
         Thread {
