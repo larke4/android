@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e1e7f41-ab02-4663-8bc3-d2c7d8b1a423" name="Changes" comment="почистил от лишних файлов" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="kotlin.jupyter.empty" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;larke4&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/larke4/android.git&quot;,
+    &quot;accountId&quot;: &quot;29f30bb0-bfb8-4501-8e33-f722e2150b3e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="32hGpxBf2jOGXV5Z2rOFrUwn4Lt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Георгий/Documents/GitHub/android/practiki/lab2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Георгий\Documents\GitHub\android\practiki\lab2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Георгий\Documents\GitHub\android\practiki\lab2\out\production\android" />
+      <recent name="C:\Users\Георгий\Documents\GitHub\android\practiki\lab1" />
+      <recent name="C:\Users\Георгий\Documents\GitHub\android\practiki" />
+      <recent name="C:\Users\Георгий\Documents\GitHub\android" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e1e7f41-ab02-4663-8bc3-d2c7d8b1a423" name="Changes" comment="" />
+      <created>1757865577134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757865577134</updated>
+    </task>
+    <task id="LOCAL-00001" summary="добавленна 1 лаба">
+      <option name="closed" value="true" />
+      <created>1757867284654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757867284654</updated>
+    </task>
+    <task id="LOCAL-00002" summary="изменениил readme file (добавил описания и формулы)">
+      <option name="closed" value="true" />
+      <created>1757905330783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757905330783</updated>
+    </task>
+    <task id="LOCAL-00003" summary="изменениил readme file (добавил описания и формулы)">
+      <option name="closed" value="true" />
+      <created>1757905385561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757905385561</updated>
+    </task>
+    <task id="LOCAL-00004" summary="изменениил readme file (добавил описания и формулы)">
+      <option name="closed" value="true" />
+      <created>1757905547004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757905547004</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Выполнил 2 лабу">
+      <option name="closed" value="true" />
+      <created>1758510696611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758510696612</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Выполнил 2 лабу">
+      <option name="closed" value="true" />
+      <created>1758510853385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758510853385</updated>
+    </task>
+    <task id="LOCAL-00007" summary="поменял положение проекта в movable">
+      <option name="closed" value="true" />
+      <created>1761497044635</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497044635</updated>
+    </task>
+    <task id="LOCAL-00008" summary="почистил от лишних файлов">
+      <option name="closed" value="true" />
+      <created>1761497109960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761497109961</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавленна 1 лаба" />
+    <MESSAGE value="изменениил readme file (добавил описания и формулы)" />
+    <MESSAGE value="Выполнил 2 лабу" />
+    <MESSAGE value="поменял положение проекта в movable" />
+    <MESSAGE value="почистил от лишних файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="почистил от лишних файлов" />
+  </component>
+</project>
