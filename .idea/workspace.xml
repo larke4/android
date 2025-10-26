@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e1e7f41-ab02-4663-8bc3-d2c7d8b1a423" name="Changes" comment="почистил от лишних файлов" />
+    <list default="true" id="2e1e7f41-ab02-4663-8bc3-d2c7d8b1a423" name="Changes" comment="почистил от лишних файлов">
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movable/Driver.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movable/Movable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movable/human.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movable/main.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Георгий\.android\avd\Medium_Phone.avd)]" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,12 +56,12 @@
     &quot;assignee&quot;: &quot;larke4&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/larke4/android.git&quot;,
-    &quot;accountId&quot;: &quot;29f30bb0-bfb8-4501-8e33-f722e2150b3e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/larke4/android",
+    "accountId": "d583d6ea-57dd-4cb4-ac8d-17c1f342ded2"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -146,6 +175,7 @@
     <MESSAGE value="изменениил readme file (добавил описания и формулы)" />
     <MESSAGE value="Выполнил 2 лабу" />
     <MESSAGE value="поменял положение проекта в movable" />
+    <MESSAGE value="лаболаьоная с калькулятором" />
     <MESSAGE value="почистил от лишних файлов" />
     <option name="LAST_COMMIT_MESSAGE" value="почистил от лишних файлов" />
   </component>

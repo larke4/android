@@ -6,6 +6,7 @@ class Driver(
 ) : Human(fullName, age, speed) {
 
     override fun move() {
+        // Прямолинейное движение вдоль оси X
         x += speed
     }
 
