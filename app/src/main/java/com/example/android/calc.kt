@@ -18,6 +18,10 @@ class Calc : AppCompatActivity() {
 
         tvResult = findViewById(R.id.tvResult)
         setupButtons()
+
+        findViewById<Button>(R.id.btn_back_calc).setOnClickListener {
+            finish()
+        }
     }
 
     private fun setupButtons() {

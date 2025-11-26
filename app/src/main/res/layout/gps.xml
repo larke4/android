@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background_gradient">
+
+
+    <Button
+        android:id="@+id/btn_back_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Назад"
+        android:backgroundTint="#666666"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS Трекер"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@android:drawable/ic_menu_mylocation"
+                android:tint="#FF6B6B"
+                android:layout_marginBottom="20dp" />
+
+
+            <TextView
+                android:id="@+id/tvLatitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latitude: --"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:padding="12dp"
+                android:background="#F8F9FA" />
+
+
+            <TextView
+                android:id="@+id/tvLongitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Longitude: --"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:padding="12dp"
+                android:background="#F8F9FA" />
+
+            <!-- Высота -->
+            <TextView
+                android:id="@+id/tvAltitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Altitude: --"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:padding="12dp"
+                android:background="#F8F9FA" />
+
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time: --"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="#E8F5E8" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btnGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ОБНОВИТЬ ЛОКАЦИЮ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_rounded_primary"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Статус: Ожидание данных GPS..."
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

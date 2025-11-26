@@ -5,6 +5,41 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/album_placeholder.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/background_gradient.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/button_circle.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/button_circle_primary.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/button_rounded_primary.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/button_rounded_red.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.Android</theme>
@@ -15,20 +50,40 @@
           <theme>@style/Theme.Android</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/gps.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/media.xml">
+        <config>
+          <theme>@style/Theme.Android</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e1e7f41-ab02-4663-8bc3-d2c7d8b1a423" name="Changes" comment="лаболаьоная с калькулятором">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/calc.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/calc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app.xml" afterDir="false" />
+    <list default="true" id="2e1e7f41-ab02-4663-8bc3-d2c7d8b1a423" name="Changes" comment="Добавил Переход(4.5)">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/Gps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/media.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album_placeholder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_circle_primary.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_rounded_primary.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_rounded_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/gps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/media.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/calc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/calc.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/calc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/calc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +119,7 @@
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -279,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763703934098</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавил Переход(4.5)">
+      <option name="closed" value="true" />
+      <created>1763980640346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1763980640346</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,19 +353,20 @@
     <MESSAGE value="поменял положение проекта в movable" />
     <MESSAGE value="лаболаьоная с калькулятором" />
     <MESSAGE value="почистил от лишних файлов" />
-    <option name="LAST_COMMIT_MESSAGE" value="почистил от лишних файлов" />
+    <MESSAGE value="Добавил Переход(4.5)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Переход(4.5)" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.android">
           <value>
-            <CheckInfo lastCheckTimestamp="1763979436687" />
+            <CheckInfo lastCheckTimestamp="1764128122129" />
           </value>
         </entry>
         <entry key="com.example.android.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1763979436593" />
+            <CheckInfo lastCheckTimestamp="1764128122129" />
           </value>
         </entry>
       </map>

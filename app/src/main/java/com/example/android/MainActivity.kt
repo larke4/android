@@ -13,6 +13,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_calc).setOnClickListener {
             goToActivity(Calc::class.java)
         }
+        findViewById<Button>(R.id.btn_media).setOnClickListener {
+            goToActivity(Media::class.java)
+        }
+        findViewById<Button>(R.id.btn_gps).setOnClickListener {
+            goToActivity(Gps::class.java)
+        }
     }
 
     private fun goToActivity(activityClass: Class<*>) {
