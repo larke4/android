@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation("org.zeromq:jeromq:0.5.2")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

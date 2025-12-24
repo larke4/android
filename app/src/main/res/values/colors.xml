@@ -4,4 +4,27 @@
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
     <color name="red_400">#FF6B6B</color>
+    <color name="color1">#FF6B6B</color>     <!-- Красный -->
+    <color name="color2">#4ECDC4</color>     <!-- Бирюзовый -->
+    <color name="color3">#FFD166</color>     <!-- Желтый -->
+    <color name="color4">#06D6A0</color>     <!-- Зеленый -->
+    <color name="color5">#118AB2</color>     <!-- Синий -->
+    <color name="color6">#EF476F</color>     <!-- Розовый -->
+    <color name="color7">#7209B7</color>     <!-- Фиолетовый -->
+    <color name="color8">#3A86FF</color>     <!-- Голубой -->
+    <color name="color9">#FB5607</color>     <!-- Оранжевый -->
+    <color name="color10">#8338EC</color>    <!-- Пурпурный -->
+    <color name="color11">#FF006E</color>    <!-- Фуксия -->
+    <color name="color12">#FFBE0B</color>    <!-- Золотой -->
+    <color name="primary_color">#FF3333</color>
+    <color name="primary_dark">#CC0000</color>
+    <color name="accent_color">#FF5252</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="background_dark">#0F0F0F</color>
+    <color name="card_background">#1E1E1E</color>
+    <color name="selected_track_background">#2A2A2A</color>
+
+    <color name="gray_light">#666666</color>
+    <color name="gray_dark">#333333</color>
 </resources>

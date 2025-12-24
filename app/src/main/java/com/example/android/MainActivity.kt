@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_gps).setOnClickListener {
             goToActivity(Gps::class.java)
         }
+        findViewById<Button>(R.id.btn_socet).setOnClickListener {
+            goToActivity(SocketActivity::class.java)
+        }
+
     }
 
     private fun goToActivity(activityClass: Class<*>) {

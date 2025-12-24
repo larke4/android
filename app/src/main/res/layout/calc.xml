@@ -6,15 +6,117 @@
     android:padding="16dp"
     android:background="#F5F5F5">
 
-    <Button
-        android:id="@+id/btn_back_calc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="← Назад"
-        android:backgroundTint="#666666"
-        android:textColor="@color/white"
-        android:padding="8dp"
-        android:layout_marginBottom="10dp" />
+    <!-- Верхняя панель с кнопкой назад и тоглами -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_back_calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#666666"
+            android:padding="8dp"
+            android:text="← Назад"
+            android:textColor="@android:color/white" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <!-- Контейнер для тоглов в правом верхнем углу -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E0E0E0"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Режим 1 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:text="Р1:"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_mode1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="60dp"
+                    android:minHeight="40dp"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <!-- Режим 2 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:text="Р2:"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_mode2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="60dp"
+                    android:minHeight="40dp"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <!-- Режим 3 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:text="Р3:"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <ToggleButton
+                    android:id="@+id/toggle_mode3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="60dp"
+                    android:minHeight="40dp"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
 
     <TextView
         android:id="@+id/tvResult"
